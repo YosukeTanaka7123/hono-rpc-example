@@ -1,5 +1,5 @@
 {
-  "name": "turbo-trpc-example",
+  "name": "hono-rpc-example",
   "private": true,
   "scripts": {
     "dev": "turbo run dev",
