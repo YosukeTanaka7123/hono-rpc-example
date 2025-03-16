@@ -7,6 +7,7 @@
     "dev": "wrangler dev",
     "check": "biome check --write .",
     "check-types": "tsc --noEmit",
+    "test": "vitest --ui",
     "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
@@ -22,7 +23,9 @@
     "@biomejs/biome": "^1.9.4",
     "@cloudflare/workers-types": "^4.20250313.0",
     "@repo/tsconfig": "workspace:*",
+    "@vitest/ui": "^3.0.8",
     "typescript": "^5.8.2",
+    "vitest": "^3.0.8",
     "wrangler": "^4.0.0"
   }
 }

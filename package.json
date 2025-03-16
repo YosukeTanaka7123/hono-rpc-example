@@ -5,6 +5,7 @@
     "dev": "turbo run dev",
     "check": "biome check --write .",
     "check-types": "turbo run check-types",
+    "test:server": "pnpm run --filter server test",
     "build": "turbo run build",
     "deploy": "turbo run deploy"
   },

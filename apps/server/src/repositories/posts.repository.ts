@@ -1,6 +1,6 @@
 import { injectable } from "tsyringe";
 import { v4 as uuidv4 } from "uuid";
-import type { Post } from "../models/post.model";
+import type { Post } from "../routes/schemas/posts.schema";
 import type { IPostsRepository } from "./interfaces/posts.repository.interface";
 
 @injectable()

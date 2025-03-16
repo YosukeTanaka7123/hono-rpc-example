@@ -1,7 +1,7 @@
 import { HTTPException } from "hono/http-exception";
 import { inject, injectable } from "tsyringe";
-import type { Post } from "../models/post.model";
 import type { IPostsRepository } from "../repositories/interfaces/posts.repository.interface";
+import type { Post } from "../routes/schemas/posts.schema";
 import type { IPostsService } from "./interfaces/posts.service.interface";
 
 @injectable()

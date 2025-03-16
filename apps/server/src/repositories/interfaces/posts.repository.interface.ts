@@ -1,4 +1,4 @@
-import type { Post } from "../../models/post.model";
+import type { Post } from "../../routes/schemas/posts.schema";
 
 export interface IPostsRepository {
   findAll(): Promise<Post[]>;
